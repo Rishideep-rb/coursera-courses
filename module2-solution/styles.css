@@ -1,0 +1,95 @@
+<style>
+		*{
+			box-sizing: border-box;
+			font-family : "Arial","surfi";
+			margin: 0;
+			padding:0;
+		}
+		body{
+			margin: 0.67em;
+			/*padding: 0.67em;*/
+			/*margin-bottom: :10em;	*/
+		}
+		h1 {
+			margin : 0.67em;
+			font-size : 1.75em;
+			text-align: center;
+		}
+
+		#h1{
+			background-color: red;
+		}
+		#h2{
+			background-color: green;
+		}
+		#h3{
+			background-color: blue;
+		}
+		
+		.section-title{
+			border : 1px solid black;
+			height : 1.5em;
+			font-size : 1.25em;
+			/*width : 30%;*/
+			text-align: center;
+			/*padding: 0,0.33em,0,0.33em;*/
+			padding-left:0.67em;
+			padding-right:0.67em;
+			padding-top:0.1em;
+			padding-bottom: 0.1em;
+			overflow : auto;
+			position: absolute;
+			top:0%;
+			/*left:74%;*/
+			right:0%; 
+
+		}
+		.push-down{
+			margin-top: 2em;
+			/*position:static;*/
+			/*top: 100%;*/
+			/*bottom: 0;*/
+
+		}
+		.col-lg-4,.col-mg-6,.col-sl-12{
+      		/*margin:0.67em;*/
+      		border : 1px solid black;
+      		padding :1%;
+      		background-color: grey;
+      		position: relative;
+      		top : 0;
+      		left:0;
+      		bottom:0;
+      		right : 0;
+    	}
+		
+		@media (min-width: 992px){
+
+			.col-lg-4{
+				width : 31%;
+				margin : 1%;
+				float:left;
+
+			}
+		}
+		@media (min-width: 768px) and (max-width: 991px){
+			.col-mg-6{
+				width : 48%;
+				margin : 1%;
+				float:left;
+			}
+			.col-mg-12{
+				width: 98%;
+				margin : 1%;
+				float:left;
+			}
+		}
+		@media (max-width: 767px){
+			.col-sl-12{
+				width : 98%;
+				margin : 1%;
+				float:left;
+			}
+		}
+		
+	</style>
