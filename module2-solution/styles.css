@@ -27,7 +27,8 @@
 		}
 		
 		.section-title{
-			border : 1px solid black;
+			border-left : 1px solid black;
+			border-bottom : 1px solid black;
 			height : 1.5em;
 			font-size : 1.25em;
 			/*width : 30%;*/
